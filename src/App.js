@@ -8,8 +8,7 @@ export default function InviteUsers() {
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    // Here you can implement your logic for sending the invitation
-    // For now, let's just simulate the invitation sending process
+   
     setTimeout(() => {
       setInviteSent(true);
       setEmail('');
